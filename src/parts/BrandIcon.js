@@ -10,10 +10,7 @@ export default function BrandIcon() {
       type="link"
       href="/"
     >
-      <p className="text-theme-blue text-4xl">
-        Sabani
-        <span className="text-theme-purple"> Tech</span>
-      </p>
+      <img className="w-20 h-20" src="/Logo.png" alt="Logo" />
     </Button>
   );
 }

@@ -12,7 +12,7 @@ export default function Hero() {
     <section className="hero">
       <Fade bottom>
         <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8">
-          <h1 className="text-5xl sm:text-6xl text-theme-blue font-bold leading-tight mb-5">
+          <h1 className="text-5xl sm:text-6xl text-theme-deep-green font-bold leading-tight mb-5">
             Mengembangkan Bisnis Anda
             {' '}
             <br />
@@ -24,7 +24,7 @@ export default function Hero() {
             untuk membantu Anda meningkatkan bisnis Anda.
           </p>
 
-          <Button href="/project" type="link" className="flex w-72 h-18 items-center px-14 py-5 text-white text-xl bg-theme-purple rounded-lg shadow-2xl hover:bg-dark-theme-purple transition duration-200">
+          <Button href="/project" type="link" className="flex w-72 h-18 items-center px-14 py-5 text-white text-xl bg-green-500 rounded-lg shadow-2xl hover:bg-green-800 transition duration-200">
             Lihat Karya Kami
             <svg className="ml-2 w-7 h-7 text-white animate-bounce-x" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

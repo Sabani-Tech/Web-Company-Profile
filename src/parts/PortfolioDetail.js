@@ -18,11 +18,11 @@ export default function PortfolioDetail({ data }) {
             <div className="flex w-full justify-center">
               <img src={NotFound} alt="Not Found" className="sm:w-3/4 xl:w-5/12 mt-5" />
             </div>
-            <h1 className="text-theme-blue text-2xl text-center mt-5">
+            <h1 className="text-theme-deep-green text-2xl text-center mt-5">
               Project Not Found
             </h1>
             <div className="flex justify-center">
-              <Button href="/project" type="link" className="flex w-30 h-10 px-5 mt-5 bg-theme-blue text-white items-center rounded transform transition duration-500 hover:bg-gray-900">
+              <Button href="/project" type="link" className="flex w-30 h-10 px-5 mt-5 bg-theme-deep-green text-white items-center rounded transform transition duration-500 hover:bg-gray-900">
                 Go Back
               </Button>
             </div>
@@ -47,7 +47,7 @@ export default function PortfolioDetail({ data }) {
                 data.map((item) => (
                   <div className="flex flex-col mt-8 justify-center">
                     <Fade bottom>
-                      <h1 className="text-5xl text-theme-blue text-center font-bold">{item.title}</h1>
+                      <h1 className="text-5xl text-theme-deep-green text-center font-bold">{item.title}</h1>
 
                       <p className="font-light text-xl text-gray-400 text-center mb-10">
                         {item.type}
@@ -62,7 +62,7 @@ export default function PortfolioDetail({ data }) {
 
                     <Fade bottom delay={300 * 1}>
                       <div className="flex flex-col mt-16 mb-12 mx-8 sm:mx-16 xl:mx-28">
-                        <h1 className="text-3xl text-theme-blue font-bold mb-3">
+                        <h1 className="text-3xl text-theme-deep-green font-bold mb-3">
                           Project Detail
                         </h1>
 
@@ -72,14 +72,14 @@ export default function PortfolioDetail({ data }) {
                       </div>
 
                       <div className="flex flex-col mx-8 sm:mx-16 xl:mx-28">
-                        <h1 className="text-3xl text-theme-blue font-bold mb-5">
+                        <h1 className="text-3xl text-theme-deep-green font-bold mb-5">
                           Project Responsibilities
                         </h1>
 
                         <div className="flex flex-row ml-1">
                           {
                                             item.responsibility.map((responsibility) => (
-                                              <div className="mr-4 px-6 py-3 text-theme-purple border border-theme-purple rounded-full shadow-lg">
+                                              <div className="mr-4 px-6 py-3 text-theme-green border border-theme-green rounded-full shadow-lg">
                                                 {responsibility}
                                               </div>
                                             ))
@@ -93,7 +93,7 @@ export default function PortfolioDetail({ data }) {
                         <br />
                         Original project :
                         {' '}
-                        <Button type="link" href={item.credit} target="_blank" className="text-theme-purple" isExternal>{item.credit}</Button>
+                        <Button type="link" href={item.credit} target="_blank" className="text-theme-green" isExternal>{item.credit}</Button>
                       </p>
                     </Fade>
                   </div>

@@ -20,7 +20,7 @@ export default function Header(props) {
         <div className="flex justify-between px-4 lg:px-0">
           <BrandIcon />
 
-          <button className="block text-theme-blue lg:hidden focus:outline-none" onClick={() => setIsCollapse(!isCollapse)}>
+          <button className="block text-green lg:hidden focus:outline-none" onClick={() => setIsCollapse(!isCollapse)}>
             <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path className={`${isCollapse ? 'hidden' : 'block'}`} strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
               <path className={`${!isCollapse ? 'hidden' : 'block'}`} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -28,7 +28,7 @@ export default function Header(props) {
           </button>
         </div>
 
-        <ul className="hidden text-theme-blue tracking-widest items-center lg:flex flex-row mt-0">
+        <ul className="hidden text-green tracking-widest items-center lg:flex flex-row mt-0">
           <li>
             <Button
               className={`${path === '/' ? 'active-link' : ''} text-lg px-5 no-underline hover:underline`}
@@ -58,7 +58,7 @@ export default function Header(props) {
           </li>
           <li>
             <Button
-              className="text-lg mx-auto ml-3 px-6 py-2 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple border-purple-800 transition duration-200"
+              className="text-lg mx-auto ml-3 px-6 py-2 bg-green-500 text-white rounded-full border-2 border-green-500 hover:bg-green-800 border-green-800 transition duration-200"
               type="link"
               href="/discuss-project"
             >
@@ -78,7 +78,7 @@ export default function Header(props) {
         leaveTo="opacity-0"
       >
         <Fade>
-          <ul className="z-50 flex flex-col text-theme-blue tracking-widest my-6 absolute bg-white w-full border-b-2 border-gray-300 lg:hidden">
+          <ul className="z-50 flex flex-col text-green tracking-widest my-6 absolute bg-white w-full border-b-2 border-gray-300 lg:hidden">
             <li className="py-2 bg-white">
               <Button
                 className={`${path === '/' ? 'active-link' : ''} px-10 no-underline hover:underline`}
@@ -108,7 +108,7 @@ export default function Header(props) {
             </li>
             <li className="mx-auto my-9 bg-white">
               <Button
-                className="mx-auto px-5 py-2 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple border-purple-800 transition duration-200"
+                className="mx-auto px-5 py-2 bg-green-500 text-white rounded-full border-2 border-green-500 hover:bg-green-800 border-green-800 transition duration-200"
                 type="link"
                 href="/discuss-project"
               >

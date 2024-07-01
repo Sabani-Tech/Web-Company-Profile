@@ -9,7 +9,7 @@ export default function Advantage({ data }) {
     <div className="bg-gray-50 py-20 mb-24 sm:mb-18 xl:mb-16">
       <div className="container mx-auto">
         <Fade bottom>
-          <h1 className="text-5xl text-theme-blue text-center font-bold">Mengapa Memilih Kami</h1>
+          <h1 className="text-5xl text-theme-deep-green text-center font-bold">Mengapa Memilih Kami</h1>
 
           <p className="font-light text-lg text-gray-400 text-center mb-12 sm:mb-5 xl:mb-0">
             Mengapa Anda harus memilih kami untuk menangani proyek Anda.
@@ -22,10 +22,10 @@ export default function Advantage({ data }) {
                         data[0].map((item, index) => (
                           <Fade bottom delay={500 * index}>
                             <div>
-                              <div className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-purple transform transition duration-500 hover:scale-105">
+                              <div className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-green transform transition duration-500 hover:scale-105">
                                 <img src={item.imageUrl} alt="" className="w-1/3" />
                                 <div className="flex-col pl-5">
-                                  <h2 className="text-theme-blue text-2xl">{item.title}</h2>
+                                  <h2 className="text-theme-deep-green text-2xl">{item.title}</h2>
                                   <p className="font-light text-gray-400">{item.description}</p>
                                 </div>
                               </div>
@@ -39,10 +39,10 @@ export default function Advantage({ data }) {
                         data[1].map((item, index) => (
                           <Fade bottom delay={500 * index}>
                             <div>
-                              <div className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-purple transform transition duration-500 hover:scale-105">
+                              <div className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-green transform transition duration-500 hover:scale-105">
                                 <img src={item.imageUrl} alt="" className="w-1/3" />
                                 <div className="flex-col pl-5">
-                                  <h2 className="text-theme-blue text-2xl">{item.title}</h2>
+                                  <h2 className="text-theme-deep-green text-2xl">{item.title}</h2>
                                   <p className="font-light text-gray-400">{item.description}</p>
                                 </div>
                               </div>

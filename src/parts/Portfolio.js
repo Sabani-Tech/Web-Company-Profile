@@ -11,7 +11,7 @@ export default function Portfolio({ data }) {
   return (
     <section className="container mx-auto flex flex-col items-center mt-20">
       <Fade bottom>
-        <h1 className="text-5xl text-theme-blue text-center font-bold">Proyek Pilihan Kami</h1>
+        <h1 className="text-5xl text-theme-deep-green text-center font-bold">Proyek Pilihan Kami</h1>
 
         <p className="font-light text-lg text-gray-400 text-center mb-12">
           Kami siap untuk meningkatkan bisnis Anda dengan hasil kerja yang luar biasa.
@@ -36,7 +36,7 @@ export default function Portfolio({ data }) {
                               </div>
                             </div>
                             <div className="py-4">
-                              <h2 className="text-theme-blue text-center text-xl">{item.title}</h2>
+                              <h2 className="text-theme-deep-green text-center text-xl">{item.title}</h2>
                               <p className="font-light text-gray-400 text-center">{item.type}</p>
                             </div>
                           </div>
@@ -47,7 +47,7 @@ export default function Portfolio({ data }) {
       </div>
 
       <Fade bottom>
-        <Button href="/project" type="link" className="flex flex-grow-0 w-36 h-12 sm:w-40 sm:h-14 lg:w-44 lg:h-16 xl:w-36 xl:h-12 text-theme-purple px-5 border border-theme-purple items-center mt-14 rounded-full justify-center transition duration-300 hover:bg-theme-purple hover:text-white">
+        <Button href="/project" type="link" className="flex flex-grow-0 w-36 h-12 sm:w-40 sm:h-14 lg:w-44 lg:h-16 xl:w-36 xl:h-12 text-green-950 px-5 border border-green items-center mt-14 rounded-full justify-center transition duration-300 hover:bg-green-500 hover:text-white">
           <p className="font-normal py-3 lg:text-lg xl:text-base">
             See More
           </p>

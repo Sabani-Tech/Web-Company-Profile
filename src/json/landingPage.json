@@ -125,23 +125,23 @@
     ],
     "team": [
         {
-            "name": "Rach David",
+            "name": "Isa Subani",
             "position": "CEO",
             "imageUrl": "assets/images/CEO.jpg"
         },
         {
-            "name": "Pauline Sydney",
-            "position": "HRD",
+            "name": "Muhammad Chairul Amri",
+            "position": "COO",
             "imageUrl": "assets/images/HRD.jpg"
         },
         {
-            "name": "Granger Watterson",
-            "position": "Finance",
-            "imageUrl": "assets/images/Finance.jpg"
+            "name": "Mayhesta Gilang Maulana",
+            "position": "CTO",
+            "imageUrl": "assets/images/CTO.jpg"
         },
         {
-            "name": "Tom Jimmy",
-            "position": "Project Manager",
+            "name": "Fajrul",
+            "position": "CMO",
             "imageUrl": "assets/images/Project-manager.jpg"
         },
         {

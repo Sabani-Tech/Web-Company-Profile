@@ -1,9 +1,10 @@
 /* eslint-disable react/jsx-filename-extension */
-import React from 'react';
 
-import Fade from 'react-reveal/Fade';
+import React from "react";
 
-import Button from 'elements/Button';
+import Fade from "react-reveal/Fade";
+
+import Button from "elements/Button";
 
 export default function Discuss() {
   return (
@@ -14,11 +15,17 @@ export default function Discuss() {
             <h1 className="w-2/3 text-5xl sm:text-6xl leading-tight font-semibold">
               Punya proyek yang mengagumkan dalam pikiran Anda ?
             </h1>
-            <Button href="/discuss-project" type="link" className="flex bg-white text-green-800 text-xl lg:text-2xl xl:text-xl tracking-wider items-center justify-center w-56 lg:w-96 lg:h-24 xl:w-56 h-20 p-5 border-2 border-dark-theme-green shadow-xl rounded-full mt-6 sm:mt-0 sm:ml-4 lg:ml-0 xl:ml-12 transform transition duration-600 hover:scale-105">
+            <Button
+              href="/discuss-project"
+              type="link"
+              className="flex bg-white text-green-800 text-xl lg:text-2xl xl:text-xl tracking-wider items-center justify-center w-56 lg:w-96 lg:h-24 xl:w-56 h-20 p-5 border-2 border-dark-theme-green shadow-xl rounded-full mt-6 sm:mt-0 sm:ml-4 lg:ml-0 xl:ml-12 transform transition duration-600 hover:scale-105"
+            >
               Mari Berdiskusi !
             </Button>
           </div>
-          <p className="font-light p-5 sm:p-0 text-lg sm:text-xl lg:text-2xl xl:text-xl mb-1">Mari kita diskusikan dan wujudkan perangkat lunak impian Anda !</p>
+          <p className="font-light p-5 sm:p-0 text-lg sm:text-xl lg:text-2xl xl:text-xl mb-1">
+            Mari kita diskusikan dan wujudkan perangkat lunak impian Anda !
+          </p>
         </div>
       </section>
     </Fade>

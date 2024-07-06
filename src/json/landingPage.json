@@ -127,62 +127,27 @@
         {
             "name": "Isa Subani",
             "position": "CEO",
-            "imageUrl": "assets/images/CEO.jpg"
+            "imageUrl": "assets/images/Avatar 2.png"
         },
         {
             "name": "Muhammad Chairul Amri",
-            "position": "COO",
-            "imageUrl": "assets/images/HRD.jpg"
+            "position": "CFO",
+            "imageUrl": "assets/images/Avatar 4.png"
+        },
+        {
+            "name": "Muhammad Syamsul Marif",
+            "position": "Senior Software Engineer",
+            "imageUrl": "assets/images/Avatar 4.png"
         },
         {
             "name": "Mayhesta Gilang Maulana",
-            "position": "CTO",
-            "imageUrl": "assets/images/CTO.jpg"
+            "position": "Software Engineer",
+            "imageUrl": "assets/images/Avatar 3.png"
         },
         {
-            "name": "Fajrul",
-            "position": "CMO",
-            "imageUrl": "assets/images/Project-manager.jpg"
-        },
-        {
-            "name": "Jim Hendrix",
-            "position": "Front-end Developer",
-            "imageUrl": "assets/images/Frontend1.jpg"
-        },
-        {
-            "name": "Calvin Max",
-            "position": "Front-end Developer",
-            "imageUrl": "assets/images/Frontend2.jpg"
-        },
-        {
-            "name": "Hawkins Jim",
-            "position": "Back-end Developer",
-            "imageUrl": "assets/images/Backend1.jpg"
-        },
-        {
-            "name": "Don Bizaro",
-            "position": "Back-end Developer",
-            "imageUrl": "assets/images/Backend2.jpg"
-        },
-        {
-            "name": "Bill Markinson",
-            "position": "Mobile Developer",
-            "imageUrl": "assets/images/Mobile1.jpg"
-        },
-        {
-            "name": "Igor Kavarov",
-            "position": "Mobile Developer",
-            "imageUrl": "assets/images/Mobile2.jpg"
-        },
-        {
-            "name": "Freddie Curl",
-            "position": "UI/UX Designer",
-            "imageUrl": "assets/images/UIUX2.jpg"
-        },
-        {
-            "name": "Monica Lovegood",
-            "position": "UI/UX Designer",
-            "imageUrl": "assets/images/UIUX1.jpg"
+            "name": "Fajrul Iqbal",
+            "position": "Software Engineer",
+            "imageUrl": "assets/images/Avatar 5.png"
         }
     ]
 }

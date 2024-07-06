@@ -1,6 +1,16 @@
 {
-    "compilerOptions": {
-        "baseUrl": "src"
-    },
-    "include": ["src/**/*"]
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "./src",
+    "jsx": "react",
+    "paths": {
+      "assets": ["./assets"],
+      "components": ["./components"],
+      "reference": ["./reference"],
+      "service": ["./service"],
+      "ui": ["./ui"],
+      "workflow": ["./workflow"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
 }

@@ -127,27 +127,27 @@
         {
             "name": "Isa Subani",
             "position": "CEO",
-            "imageUrl": "assets/images/CEO.jpg"
+            "imageUrl": "assets/images/Avatar 2.png"
         },
         {
             "name": "Muhammad Chairul Amri",
-            "position": "COO",
-            "imageUrl": "assets/images/HRD.jpg"
-        },
-        {
-            "name": "Mayhesta Gilang Maulana",
-            "position": "CTO",
-            "imageUrl": "assets/images/CTO.jpg"
-        },
-        {
-            "name": "Fajrul",
-            "position": "CMO",
-            "imageUrl": "assets/images/Project-manager.jpg"
+            "position": "CFO",
+            "imageUrl": "assets/images/Avatar 4.png"
         },
         {
             "name": "Muhammad Syamsul Marif",
-            "position": "CFO",
-            "imageUrl": "assets/images/Frontend1.jpg"
+            "position": "Senior Software Engineer",
+            "imageUrl": "assets/images/Avatar 4.png"
+        },
+        {
+            "name": "Mayhesta Gilang Maulana",
+            "position": "Software Engineer",
+            "imageUrl": "assets/images/Avatar 3.png"
+        },
+        {
+            "name": "Fajrul Iqbal",
+            "position": "Software Engineer",
+            "imageUrl": "assets/images/Avatar 5.png"
         }
     ]
 }

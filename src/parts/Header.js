@@ -1,13 +1,13 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prop-types */
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import Fade from 'react-reveal/Fade';
-import { Transition } from '@headlessui/react';
+import Fade from "react-reveal/Fade";
+import { Transition } from "@headlessui/react";
 
-import Button from 'elements/Button';
-import BrandIcon from 'parts/BrandIcon';
+import Button from "elements/Button";
+import BrandIcon from "parts/BrandIcon";
 
 export default function Header(props) {
   const { location } = props;
@@ -20,10 +20,31 @@ export default function Header(props) {
         <div className="flex justify-between px-4 lg:px-0">
           <BrandIcon />
 
-          <button className="block text-green lg:hidden focus:outline-none" onClick={() => setIsCollapse(!isCollapse)}>
-            <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path className={`${isCollapse ? 'hidden' : 'block'}`} strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-              <path className={`${!isCollapse ? 'hidden' : 'block'}`} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          <button
+            className="block text-green lg:hidden focus:outline-none"
+            onClick={() => setIsCollapse(!isCollapse)}
+          >
+            <svg
+              className="w-8 h-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                className={`${isCollapse ? "hidden" : "block"}`}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+              <path
+                className={`${!isCollapse ? "hidden" : "block"}`}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
             </svg>
           </button>
         </div>
@@ -31,7 +52,9 @@ export default function Header(props) {
         <ul className="hidden text-green tracking-widest items-center lg:flex flex-row mt-0">
           <li>
             <Button
-              className={`${path === '/' ? 'active-link' : ''} text-lg px-5 no-underline hover:underline`}
+              className={`${
+                path === "/" ? "active-link" : ""
+              } text-lg px-5 no-underline hover:underline`}
               type="link"
               href=""
             >
@@ -40,7 +63,9 @@ export default function Header(props) {
           </li>
           <li className="py-2 lg:py-0">
             <Button
-              className={`${path === '/team' ? 'active-link' : ''} text-lg px-5 no-underline hover:underline`}
+              className={`${
+                path === "/team" ? "active-link" : ""
+              } text-lg px-5 no-underline hover:underline`}
               type="link"
               href="/team"
             >
@@ -49,7 +74,9 @@ export default function Header(props) {
           </li>
           <li className="py-2 lg:py-0">
             <Button
-              className={`${path === '/project' ? 'active-link' : ''} text-lg px-5 no-underline hover:underline`}
+              className={`${
+                path === "/project" ? "active-link" : ""
+              } text-lg px-5 no-underline hover:underline`}
               type="link"
               href="/project"
             >
@@ -81,7 +108,9 @@ export default function Header(props) {
           <ul className="z-50 flex flex-col text-green tracking-widest my-6 absolute bg-white w-full border-b-2 border-gray-300 lg:hidden">
             <li className="py-2 bg-white">
               <Button
-                className={`${path === '/' ? 'active-link' : ''} px-10 no-underline hover:underline`}
+                className={`${
+                  path === "/" ? "active-link" : ""
+                } px-10 no-underline hover:underline`}
                 type="link"
                 href="/"
               >
@@ -90,7 +119,9 @@ export default function Header(props) {
             </li>
             <li className="py-2 bg-white">
               <Button
-                className={`${path === '/team' ? 'active-link' : ''} px-10 no-underline hover:underline`}
+                className={`${
+                  path === "/team" ? "active-link" : ""
+                } px-10 no-underline hover:underline`}
                 type="link"
                 href="/team"
               >
@@ -99,7 +130,9 @@ export default function Header(props) {
             </li>
             <li className="py-2 bg-white">
               <Button
-                className={`${path === '/project' ? 'active-link' : ''} px-10 no-underline hover:underline`}
+                className={`${
+                  path === "/project" ? "active-link" : ""
+                } px-10 no-underline hover:underline`}
                 type="link"
                 href="/project"
               >

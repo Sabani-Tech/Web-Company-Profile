@@ -1,13 +1,14 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/jsx-filename-extension */
-import React, { Component } from 'react';
 
-import Header from 'parts/Header';
-import PortfolioDetail from 'parts/PortfolioDetail';
-import Footer from 'parts/Footer';
+import React, { Component } from "react";
 
-import Data from 'json/landingPage.json';
+import Header from "parts/Header";
+import PortfolioDetail from "parts/PortfolioDetail";
+import Footer from "parts/Footer";
+
+import Data from "json/landingPage.json";
 
 export default class ProjectDetailPage extends Component {
   componentDidMount() {
@@ -15,13 +16,17 @@ export default class ProjectDetailPage extends Component {
   }
 
   render() {
-    const detailData = Data.portfolio.filter((item) => item.id === `${this.props.match.params.id}`);
+    const detailData = Data.portfolio.filter(
+      (item) => item.id === `${this.props.match.params.id}`
+    );
 
     return (
       <>
         {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         <Header {...this.props} />
-        <PortfolioDetail data={detailData.length === 1 ? [detailData[0]] : null} />
+        <PortfolioDetail
+          data={detailData.length === 1 ? [detailData[0]] : null}
+        />
         <Footer />
       </>
     );

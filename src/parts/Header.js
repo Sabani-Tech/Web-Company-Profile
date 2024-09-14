@@ -61,6 +61,16 @@ export default function Header(props) {
               Home
             </Button>
           </li>
+          <li>
+            <Button
+              className={`${path === "/service" ? "active-link" : ""
+                } text-lg px-5 no-underline hover:underline`}
+              type="link"
+              href="/service"
+            >
+              Service
+            </Button>
+          </li>
           <li className="py-2 lg:py-0">
             <Button
               className={`${

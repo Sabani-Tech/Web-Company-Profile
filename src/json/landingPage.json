@@ -1,16 +1,28 @@
 {
     "service" : [
         {
+            "id":"assd1232ssnjn",
             "title": "Web Development",
-            "imageUrl": "assets/images/Web.png"
+            "type":"Website",
+            "imageUrl": "assets/images/Web.png",
+            "description":"Layanan Pengembangan Web Sabani Tech Transformasikan Bisnis Anda dengan Solusi Web yang Unggul Di Sabani Tech, kami percaya bahwa sebuah situs web bukan hanya sekadar alat digital, tetapi juga representasi dari identitas dan visi bisnis Anda. Kami menawarkan layanan pengembangan web yang komprehensif dan tailor-made, dirancang khusus untuk memenuhi kebutuhan unik setiap klien.",
+            "tool":"React, Next.js, Angular, Laravel, Express.js, Golang, MySQL, MongoDB"
         },
         {
+            "id":"as12wn11n2njn",
             "title": "Mobile Development",
-            "imageUrl": "assets/images/Mobile.png"
+            "type":"Mobile Apps",
+            "imageUrl": "assets/images/Mobile.png",
+            "description": "Di Sabani Tech, kami mengerti bahwa di era digital saat ini, aplikasi mobile adalah salah satu alat terpenting untuk menjangkau dan berinteraksi dengan pelanggan Anda. Kami menawarkan layanan pengembangan aplikasi mobile yang inovatif dan disesuaikan untuk berbagai kebutuhan bisnis.",
+            "tool":"React Native, Flutter, Kotlin"
         },
         {
+            "id":"as11whshsabsabj",
             "title": "UI/UX Design",
-            "imageUrl": "assets/images/Design.png"
+            "type":"UI/UIX",
+            "imageUrl": "assets/images/Design.png",
+            "description": "Di Sabani Tech, kami memahami bahwa desain antarmuka pengguna (UI) dan pengalaman pengguna (UX) yang hebat adalah kunci untuk menarik dan mempertahankan pelanggan. Kami menawarkan layanan desain UI/UX yang kreatif dan efektif, dirancang untuk memberikan nilai tambah pada setiap interaksi pengguna dengan produk digital Anda.",
+            "tool":"Figma"
         }
     ],
     "portfolio" : [

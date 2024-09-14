@@ -11,11 +11,11 @@ export default function Service({ data }) {
       <div className="container mx-auto pt-20 pb-28">
         <Fade bottom>
           <h1 className="text-5xl text-theme-deep-green text-center font-bold">
-            Layanan Kami
+            Jasa Kami
           </h1>
 
           <p className="font-light text-lg text-gray-400 text-center mb-12">
-            Kami siap meningkatkan bisnis Anda dengan layanan hebat kami.
+            Kami siap meningkatkan bisnis Anda dengan Jasa hebat kami.
           </p>
         </Fade>
 

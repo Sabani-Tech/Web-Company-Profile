@@ -1,6 +1,7 @@
 # Sabani Tech
 
-![alt text](https://github.com/racmathafidz/racxstudio/blob/master/src/assets/images/screely.png)
+![sabani-web-company-profile](https://github.com/user-attachments/assets/66c6467f-d0ae-410b-9d9a-31b35dafc437)
+
 
 ### About
 

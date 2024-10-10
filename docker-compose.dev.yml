@@ -1,0 +1,12 @@
+version: "1"
+
+services:
+    app:
+        container_name: container_company_profile
+        image: images_company_profile
+        build:
+            target: development
+        volumes:
+          - ./web_company_profile:/app/web_company_profile
+        ports:
+          - 3000:3000
